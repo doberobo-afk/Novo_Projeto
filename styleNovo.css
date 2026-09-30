@@ -1,0 +1,57 @@
+body {
+    padding: 100px;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+    margin: auto;
+    width: 600px;
+    height: auto;
+    background-color: rgb(159, 84, 84);
+    align-items: center;
+    text-align: center;
+    color: bisque;
+    border: solid;
+    border-radius: 5px;
+}
+
+button {
+    border: solid;
+    border-radius: 5px;
+    background-color: aqua;
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: aquamarine;
+}
+
+input {
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;                
+    margin-top: 15px;    
+    width: 500px;
+    align-items: center;
+}
+
+li {
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: antiquewhite;
+    color: brown;
+    border: solid;
+    border-radius: 5px;
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
