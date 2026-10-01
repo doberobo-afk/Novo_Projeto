@@ -17,10 +17,20 @@ body {
     border-radius: 5px;
 }
 
-button {
+.btnExcluir {
     border: solid;
     border-radius: 5px;
-    background-color: aqua;
+    background-color: rgb(211, 81, 69);
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.btnCadastrar {
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(62, 154, 125);
     width: 200px;
     height: 40px;
     margin-left: 30px;
@@ -36,7 +46,7 @@ input {
     padding: 10px;                
     margin-top: 15px;    
     width: 500px;
-    align-items: center;
+    align-items: center;   
 }
 
 li {
@@ -54,4 +64,28 @@ li {
 ul {
     list-style-type: none;
     margin: 0;
+    align-items: center;
+    padding: 40px;
+}
+
+.excluirItem {
+    width: 80px;
+    height: 20px;
+    margin: auto;
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(231, 113, 113);
+}
+
+.editarItem {
+    width: 80px;
+    height: 20px;
+    margin: auto;
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(113, 164, 231, 0.875);
 }
